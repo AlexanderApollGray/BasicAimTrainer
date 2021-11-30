@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #6afb92;
+  text-align: center;
+  color: #8b008b;
+  cursor: none;
+}
+
+canvas {
+  border: 1px solid grey;
+  background-color: #70ffff;
+}
+
+.cursor {
+  width: 10px;
+  height: 10px;
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+div {
+  font-size: 25px;
+}
