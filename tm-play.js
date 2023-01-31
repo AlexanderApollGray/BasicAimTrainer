@@ -137,7 +137,7 @@ function start() {
   if (seconds === 0) {
     ctx.fillStyle = "#70ffff";
     ctx.fillRect(0, 0, cnv.width, cnv.height);
-  
+
     ctx.font = "70px Arial, Helvetica, sans-serif";
     ctx.fillStyle = "#8B008B";
     ctx.fillText("Done", 320, 310);
